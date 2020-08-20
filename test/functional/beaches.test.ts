@@ -1,5 +1,4 @@
-import { BeachPosition } from '@src/services/forecast';
-import { Beach } from '@src/models/beach';
+import { Beach, BeachPosition } from '@src/models/beach';
 
 describe('Beaches funcional tests', () => {
   beforeAll(async () => await Beach.deleteMany({}));
